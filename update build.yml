@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: fedora-38
 
     steps:
       - uses: actions/checkout@v2
